@@ -1,0 +1,19 @@
+{
+    "name": "Berliner Overseas",
+    "short_name": "Berliner'",
+    "icons": [
+        {
+            "src": "assets/images/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/images/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "theme_color": "#814882",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

@@ -1,0 +1,48 @@
+//PLUGIN
+
+// SELECT2
+.select2
+    border: none
+    border-bottom: 1px solid rgba(0, 0, 0, .22)
+    border-radius: 0
+    width: 100% !important
+.select2-selection
+    outline: none !important
+    box-shadow: none !important
+    // background: url(../images/ard.png) no-repeat
+    background-size: 8px
+    padding: 0 !important
+    display: flex !important
+    align-items: center
+    text-align: left
+    background-position: right 5px center !important
+    height: 50px !important
+    @media only screen and (min-width: 468px)
+        background-size: 10px
+        background-position: right 9px center !important
+    .select2-selection__rendered
+        width: 100%
+        padding: 0 !important
+        color: rgba(0, 0, 0, .55)
+        font-weight: 300
+        font-size: 16px
+.select2-dropdown
+    border: 1px solid rgba(136, 136, 136, 0.26) !important
+    border-radius: 0 !important
+    background-color: $basecolor !important
+    @media only screen and ( min-width: 768px )
+        background-color: transparent !important
+.select2-results__option:not(:last-of-type)
+    border-bottom: 1px solid rgba(131, 131, 131, 0.267) !important
+.select2-results__option
+    padding: 10px 10px !important
+    // transition: .4s all
+    color: rgba(0, 0, 0, .55) !important
+    font-weight: 300
+    font-size: 16px
+    &:hover
+        background-color: $basecolor
+        color: $white !important
+
+.select2-results
+    background: #fff
