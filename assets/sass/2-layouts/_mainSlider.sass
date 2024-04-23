@@ -10,10 +10,15 @@
         @media only screen and (min-width: 992px)
             height: calc( 100vh - 114px )
         @media only screen and (min-width: 1200px)
-            height: calc( 100vh - 112px )
+            height: calc( 100vh - 149px )
+        .container
+            height: 100%
+            .row
+                height: 100%
+                align-items: center
         .carousel
             height: 100%
-            &-inner 
+            &-inner
                 height: 100%
             &-item
                 height: 100%
@@ -22,25 +27,32 @@
                     .banner__contents
                         transform: translate(0)
                         opacity: 1
+            &-indicators
+                margin: 0 0 91px 0
+                button
+                    width: 7px
+                    height: 7px
+                    border-radius: 50%
+                    background-color: #D9D9D9
+                    margin-right: 28px
+                    &.active
+                        background-color: $basecolor
+
     &__contents
-        position: absolute
-        width: 100%
-        height: 100%
-        top: 0
-        left: 0
         display: flex
         justify-content: start
         align-content: center
-        flex-wrap: wrap
+        flex-direction: column
         transform: translate( 0 , 70px )
         transition: 1s all
         opacity: 0
-        p 
+        p
             font-size: 22px
             line-height: 26px
             color: #1D1D1D
             margin-bottom: 35px
             width: 100%
+            max-width: 66%
     &__title
         font-size: 28px
         margin-bottom: 24px
@@ -66,4 +78,39 @@
             font-weight: 700
             color: $black
             width: 100%
-    
+    &__image
+        margin-left: 23px
+        &-wrapper
+            display: flex
+            align-items: flex-end
+            gap: 63px
+        &__box
+            position: relative
+            &::before
+                position: absolute
+                content: ""
+                top: 0
+                width: 100%
+                height: 100%
+                border: solid 1px $black
+                z-index: 0
+            img
+                @include imgFit
+                position: relative
+                z-index: 9
+            &--lg
+                width: 434px
+                height: 620px
+                img
+                    border-radius: 217px
+                &::before
+                    left: 24px
+                    border-radius: 217px
+            &--sm
+                width: 245px
+                height: 381px
+                img
+                    border-radius: 189px
+                &::before
+                    left: 13px
+                    border-radius: 189px

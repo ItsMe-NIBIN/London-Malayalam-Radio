@@ -8,18 +8,44 @@
     <!-- Banner Section  -->
     <section class="banner-section">
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel"
-            data-bs-interval="3500">
+            data-bs-interval="333500">
+            <div class="carousel-indicators">
+                <div class="container">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="banner__contents">
-                        <div class="container">
-                            <div class="banner__title">
-                                The keys to
-                                <span>your desired castle</span>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner__contents">
+                                    <div class="banner__title">
+                                        The keys to
+                                        <span>your desired castle</span>
+                                    </div>
+                                    <p>Passion means we use our drive and commitment
+                                        to energize, engage and inspire others.</p>
+                                    <a href="javascript:void(0);" class="baseBtn hoveranim"><span>START NOW</span></a>
+                                </div>
                             </div>
-                            <p>Passion means we use our drive and commitment
-                                to energize, engage and inspire others.</p>
-                            <a href="javascript:void(0);" class="baseBtn hoveranim"><span>START NOW</span></a>
+                            <div class="col-lg-6">
+                                <div class="banner__image">
+                                    <div class="banner__image-wrapper">
+                                        <div class="banner__image__box banner__image__box--lg">
+                                            <img src="assets/images/banner1.png" alt="">
+                                        </div>
+                                        <div class="banner__image__box banner__image__box--sm">
+                                            <img src="assets/images/banner2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

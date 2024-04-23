@@ -5,10 +5,57 @@
     &.show
         opacity: 1
 
-.topHeader
+#topHeader
     width: 100%
     height: 37px
     background-color: $basecolor
+    .container  
+        height: 100%
+    .topHeader
+        width: 100%
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &__left
+            ul
+                display: flex
+                align-items: center
+                gap: 22px
+                li
+                    a
+                        display: flex
+                        align-items: center
+                        gap: 7px
+                        svg
+                            width: 16px
+                            height: 16px
+                        &:hover
+                            color: $basecolor2
+                            svg
+                                path
+                                    fill: $basecolor2
+                                    stroke: $basecolor2
+        &__right    
+            display: flex
+            gap: 38px
+            p
+                font-size: 14px
+                line-height: 16px
+                font-weight: 500
+                letter-spacing: 2px
+                color: $white
+                margin-bottom: 0
+                font-family: $fontstack2
+            ul
+                display: flex
+                align-items: center
+                gap: 13px
+                li
+                    a
+                        display: flex
+                        align-items: center
+        
 
 #Header
     position: absolute
@@ -18,15 +65,20 @@
     left: 0px
     animation-duration: 0.8s
     transition: .5s all
+    height: 112px
     .HeaderMenu
         background: transparent
         position: relative
         z-index: 1
+        height: 100%
+        .container  
+            height: 100%
         .FlexRow
             display: flex
             align-items: center
             justify-content: space-between
             position: relative
+            height: 100%
             padding-right: 40px
             @media only screen and (min-width: 992px)
                 padding-right: 0
@@ -46,15 +98,12 @@
                 align-items: center
                 justify-content: center
             @media only screen and (min-width: 1200px)
-                width: 105px
-                padding: 14px 0 0
-            @media only screen and (min-width: 1441px)
-                width: 135px
-            @media only screen and (min-width: 1551px)
-                width: 150px
-            @media only screen and (min-width: 1681px)
-                width: 179px
-                padding: 22px 0 0
+                width: 156px
+                padding: 0
+                margin: 0
+                position: absolute
+                top: 13px
+                left: 0
             img
                 width: 100%
                 height: 100%
@@ -66,17 +115,8 @@
             width: calc( 100% - 180px )
             padding-right: 8px
             @media only screen and (min-width: 1200px)
-                width: calc( 100% - 209px )
-                padding-right: 10px
-            @media only screen and (min-width: 1441px)
-                width: calc( 100% - 245px )
-                padding-right: 15px
-            @media only screen and (min-width: 1551px)
-                width: calc( 100% - 280px )
-                padding-right: 22px
-            @media only screen and (min-width: 1681px)
-                width: calc( 100% - 310px )
-                padding-right: 30px
+                width: 100%
+                padding-right: 158px
 
         #HeaderPOP
             min-height: 100vh
@@ -238,14 +278,8 @@
                                 padding: 10px 5px
                                 font-size: 12px
                             @media only screen and (min-width: 1200px)
-                                font-size: 14px
-                                padding: 15px 6px
-                            @media only screen and (min-width: 1441px)
-                                font-size: 15px
-                                padding: 15px 8px
-                            @media only screen and (min-width: 1551px)
                                 font-size: 16px
-                                padding: 15px 10px
+                                padding: 15px 23px
                             &::after
                                 display: none
                             &.active, &:hover
