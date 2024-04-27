@@ -11,8 +11,8 @@
             data-bs-interval="333500">
             <div class="carousel-indicators">
                 <div class="container">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
@@ -81,6 +81,260 @@
     <!-- Banner Section  -->
 
 
+    <!-- Articles Section  -->
+    <section id="article-section">
+        <div class="container">
+            
+        </div>
+    </section>
+    <!-- Articles Section  -->
+
+
+
+    <!-- Testimonial Section  -->
+    <section id="testimonial-section">
+        <div class="container">
+            <div class="title-wrapper">
+                <h3>Testimonials</h3>
+                <a href="javascript:void(0);" class="baseBtn hoveranim"><span>Write A Review</span></a>
+            </div>
+            <div class="owl-carousel owl-theme testimonialSlider">
+                <div class="testimonial__box">
+                    <div class="testimonial__image-wrapper">
+                        <div class="testimonial__image">
+                            <img src="assets/images/user1.png" alt="">
+                        </div>
+                        <div class="testimonial__rating">
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="testimonial__content">
+                        <h4>Floyd Miles</h4>
+                        <h6>Dolor do amet</h6>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserun</p>
+                    </div>
+                </div>
+                <div class="testimonial__box">
+                    <div class="testimonial__image-wrapper">
+                        <div class="testimonial__image">
+                            <img src="assets/images/user2.png" alt="">
+                        </div>
+                        <div class="testimonial__rating">
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="testimonial__content">
+                        <h4>Ronald Richards</h4>
+                        <h6>Dolor do amet</h6>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserun</p>
+                    </div>
+                </div>
+                <div class="testimonial__box">
+                    <div class="testimonial__image-wrapper">
+                        <div class="testimonial__image">
+                            <img src="assets/images/user3.png" alt="">
+                        </div>
+                        <div class="testimonial__rating">
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="testimonial__content">
+                        <h4>Savannah Nguyen</h4>
+                        <h6>Dolor do amet</h6>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserun</p>
+                    </div>
+                </div>
+                <div class="testimonial__box">
+                    <div class="testimonial__image-wrapper">
+                        <div class="testimonial__image">
+                            <img src="assets/images/user1.png" alt="">
+                        </div>
+                        <div class="testimonial__rating">
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="testimonial__content">
+                        <h4>Floyd Miles</h4>
+                        <h6>Dolor do amet</h6>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserun</p>
+                    </div>
+                </div>
+                <div class="testimonial__box">
+                    <div class="testimonial__image-wrapper">
+                        <div class="testimonial__image">
+                            <img src="assets/images/user2.png" alt="">
+                        </div>
+                        <div class="testimonial__rating">
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                            <svg class="rated" width="28" height="27" viewBox="0 0 28 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1557 21.1716L22.4175 26.1581L20.225 16.76L27.5243 10.4367L17.9123 9.62118L14.1557 0.757812L10.3991 9.62118L0.787109 10.4367L8.08635 16.76L5.89391 26.1581L14.1557 21.1716Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="testimonial__content">
+                        <h4>Ronald Richards</h4>
+                        <h6>Dolor do amet</h6>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet
+                            minim mollit non deserun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section  -->
+
+
 
     <!-- Touch Swipe  -->
     <script type="text/javascript"
@@ -119,17 +373,17 @@
         // Touch Swipe
 
         // Testimonial Slider 
-        $('.clientsSlide').owlCarousel({
+        $('.testimonialSlider').owlCarousel({
             loop: true,
             lazyLoad: true,
             rewind: false,
             autoplay: true,
             smartSpeed: 1000,
-            autoplayTimeout: 2000,
+            autoplayTimeout: 1112000,
             autoplayHoverPause: true,
             responsiveClass: true,
             nav: false,
-            dots: false,
+            dots: true,
             margin: 10,
             responsive: {
                 0: {
@@ -149,8 +403,8 @@
                     items: 4,
                 },
                 1200: {
-                    margin: 40,
-                    items: 5,
+                    margin: 31,
+                    items: 3,
                 },
             }
         })

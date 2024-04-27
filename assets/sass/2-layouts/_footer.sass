@@ -1,358 +1,131 @@
 footer
+    background-color: #0E1B2B
+    position: relative
+    &::before
+        position: absolute
+        content: ""
+        bottom: 0
+        left: 0
+        width: 100%
+        height: 93px
+        z-index: 1
+        background-image: url("../images/footer-text.png")
+        background-size: cover
+        background-repeat: no-repeat
     .topFooter
-        padding: 35px 0 25px
-        border-bottom: 1px dashed #707070
-        @media only screen and (min-width: 468px)
-            padding: 42px 0 28px
-        @media only screen and (min-width: 768px)
-            padding: 48px 0 34px
-        @media only screen and (min-width: 992px)
-            padding: 55px 0 42px
-        @media only screen and (min-width: 1200px)
-            padding: 66px 0 52px
-        @media only screen and (min-width: 1441px)
-            padding: 72px 0 60px
-        @media only screen and (min-width: 1551px)
-            padding: 80px 0 70px
-        .row    
-            margin: -12px
-            @media only screen and (min-width: 576px)
-                margin: -15px
-            &>*
-                padding: 12px
-                @media only screen and (min-width: 576px)
-                    padding: 15px
-        .descSec
-            padding-right: 5px
-            @media only screen and (min-width: 768px)
-                padding-right: 15px
-            @media only screen and (min-width: 1200px)
-                padding-right: 35px
-            @media only screen and (min-width: 1441px)
-                padding-right: 62px
-            @media only screen and (min-width: 1551px)
-                padding-right: 90px
-            @media only screen and (min-width: 1681px)
-                padding-right: 138px
-            .logoSec
-                display: block
-                width: 90px
-                margin-bottom: 12px
-                @media only screen and (min-width: 768px)
-                    width: 100px
-                    margin-bottom: 15px
-                @media only screen and (min-width: 1200px)
-                    width: 120px
-                    margin-bottom: 20px
-                @media only screen and (min-width: 1441px)
-                    width: 130px
-                    margin-bottom: 22px
-                @media only screen and (min-width: 1551px)
-                    width: 143px
-                    margin-bottom: 28px
-            p   
-                font-size: 12px
-                line-height: 20px
-                margin-bottom: 15px
-                @media only screen and (min-width: 768px)
-                    font-size: 14px
-                    line-height: 22px
-                    margin-bottom: 20px
-                @media only screen and (min-width: 1200px)
-                    font-size: 15px
-                    line-height: 25px
-                    margin-bottom: 25px
-                @media only screen and (min-width: 1441px)
-                    font-size: 16px
-                    line-height: 26px
-                    margin-bottom: 28px
-                @media only screen and (min-width: 1551px)
-                    font-size: 18px
-                    line-height: 28px
-                    margin-bottom: 30px
-            ul  
-                &>*
-                    &:not(:last-of-type)
-                        margin-bottom: 12px                    
-                        @media only screen and (min-width: 768px)
-                            margin-bottom: 15px                    
-                        @media only screen and (min-width: 1200px)
-                            margin-bottom: 18px                    
-                        @media only screen and (min-width: 1441px)
-                            margin-bottom: 25px                    
-                        @media only screen and (min-width: 1551px)
-                            margin-bottom: 38px                    
-                li
-                    a
-                        align-items: center
-                        @include display
-                        svg
-                            width: 12px
-                            height: 12px
-                            fill: $basecolor
-                            @media only screen and (min-width: 1200px)
-                                width: 14px
-                                height: 14px
-                            @media only screen and (min-width: 1441px)
-                                width: 16px
-                                height: 16px
-                            @media only screen and (min-width: 1551px)
-                                width: 19px
-                                height: 19px
-                        span
-                            width: calc( 100% - 12px )
-                            padding-left: 12px
-                            font-size: 14px
-                            line-height: 20px
-                            font-weight: 500
-                            color: $black
-                            transition: 0.4s all
-                            @media only screen and (min-width: 768px)
-                                padding-left: 15px
-                                font-size: 15px
-                                line-height: 20px
-                            @media only screen and (min-width: 1200px)
-                                width: calc( 100% - 14px )
-                                padding-left: 20px
-                                font-size: 16px
-                                line-height: 22px
-                            @media only screen and (min-width: 1441px)
-                                width: calc( 100% - 16px )
-                                padding-left: 22px
-                                font-size: 18px
-                                line-height: 24px
-                            @media only screen and (min-width: 1551px)
-                                width: calc( 100% - 19px )
-                                padding-left: 26px
-                                font-size: 20px
-                                line-height: 28px
-                        &:hover
-                            span
-                                color: $basecolor
-        .linkSec
-            @media only screen and (min-width: 576px)
-                padding-left: 10px
-            @media only screen and (min-width: 1200px)
-                padding-left: 15px
-            @media only screen and (min-width: 1441px)
-                padding-left: 30px
-            @media only screen and (min-width: 1551px)
-                padding-left: 44px
-            .head
-                font-size: 15px
-                margin-bottom: 12px
+        .footer-info
+            border-bottom: solid 1px rgba(217, 217, 217, 0.35)
+            padding: 30px 0 42px
+            h2
+                font-family: $fontstack2
+                font-size: 60px
                 font-weight: 500
-                color: $black
-                @media only screen and (min-width: 768px)
-                    font-size: 16px
-                    margin-bottom: 15px
-                @media only screen and (min-width: 1200px)
-                    font-size: 18px
-                    margin-bottom: 20px
-                @media only screen and (min-width: 1551px)
-                    font-size: 20px
-                    margin-bottom: 28px
-                @media only screen and (min-width: 1681px)
-                    margin-bottom: 35px
-            ul
-                &>*
-                    &:not(:last-of-type)
-                        margin-bottom: 6px
-                        @media only screen and (min-width: 468px)
-                            margin-bottom: 8px
-                        @media only screen and (min-width: 768px)
-                            margin-bottom: 10px
-                        @media only screen and (min-width: 1200px)
-                            margin-bottom: 15px
-                        @media only screen and (min-width: 1551px)
-                            margin-bottom: 18px
-                        @media only screen and (min-width: 1681px)
-                            margin-bottom: 22px
-                li
-                    a
-                        font-size: 13px
-                        color: $black
-                        transition: 0.4s all
-                        @media only screen and (min-width: 768px)
-                            font-size: 14px
-                        @media only screen and (min-width: 1200px)
-                            font-size: 16px
-                        @media only screen and (min-width: 1551px)
-                            font-size: 17px
-                        @media only screen and (min-width: 1681px)
-                            font-size: 18px
-                        &:hover
-                            color: $basecolor
-        .socialSec
-            @media only screen and (min-width: 992px)
-                padding-left: 32px
-            @media only screen and (min-width: 1200px)
-                padding-left: 45px
-            @media only screen and (min-width: 1441px)
-                padding-left: 60px
-            @media only screen and (min-width: 1551px)
-                padding-left: 70px
-            .head
-                font-size: 15px
-                margin-bottom: 12px
+                margin-bottom: 0
+                color: $white
+            p
+                font-family: $fontstack2
+                font-size: 20px
                 font-weight: 500
-                color: $black
-                @media only screen and (min-width: 768px)
-                    font-size: 16px
-                    margin-bottom: 15px
-                @media only screen and (min-width: 1200px)
-                    font-size: 18px
-                    margin-bottom: 20px
-                @media only screen and (min-width: 1551px)
-                    font-size: 20px
-                    margin-bottom: 26px
-                @media only screen and (min-width: 1681px)
-                    margin-bottom: 30px
-            .newsLetter
-                margin-bottom: 20px
-                @media only screen and (min-width: 768px)
-                    margin-bottom: 28px
-                @media only screen and (min-width: 1200px)
-                    margin-bottom: 35px
-                @media only screen and (min-width: 1441px)
-                    margin-bottom: 40px
-                @media only screen and (min-width: 1551px)
-                    margin-bottom: 50px
-                @media only screen and (min-width: 1681px)
-                    margin-bottom: 66px
-                .form-group
-                    margin-bottom: 0
-                    background-color: #F8F9FD
-                    border-radius: 8px
-                    position: relative
-                    .form-control   
-                        width: 100%
-                        height: 52px
-                        background-color: transparent
-                        border: 0
-                        font-size: 13px
-                        color: #282D31
-                        padding-left: 22px
-                        @media only screen and (min-width: 1200px)
-                            font-size: 14px
-                            padding-left: 25px
-                            height: 54px
-                        @media only screen and (min-width: 1441px)
-                            font-size: 15px
-                            padding-left: 30px
-                        @media only screen and (min-width: 1551px)
-                            font-size: 16px
-                        &:placeholder
-                            color: #282D31
-                    .submitBtn
-                        position: absolute
-                        top: 18px
-                        right: 20px
-                        width: 15px
-                        height: 15px
-                        padding: 0
-                        margin: 0
-                        border: 0
-                        outline: 0
-                        background-color: transparent
-                        display: flex
-                        @media only screen and (min-width: 1200px)
-                            width: 18px
-                            height: 18px
-                        @media only screen and (min-width: 1441px)
-                            top: 15px
-                            right: 20px
-                            width: 20px
-                            height: 20px
-                        @media only screen and (min-width: 1551px)
-                            width: 22px
-                            height: 22px
-                        svg
-                            width: 15px
-                            height: 15px
-                            fill: $basecolor
-                            transition: 0.4s all
-                            @media only screen and (min-width: 1200px)
-                                width: 18px
-                                height: 18px
-                            @media only screen and (min-width: 1441px)
-                                width: 20px
-                                height: 20px
-                            @media only screen and (min-width: 1551px)
-                                width: 22px
-                                height: 22px
-                        &:hover
-                            svg
-                                fill: $basecolor2
-            .connect
+                margin-bottom: 0
+                color: $white
+            &-wrapper
+                display: flex
+                align-items: center
+                gap: 51px
+                padding-top: 18px
                 ul
-                    margin: 0 -10px
-                    align-items: center
-                    @include display
-                    @media only screen and (min-width: 1441px)
-                        margin: 0 -12px
-                    @media only screen and (min-width: 1551px)
-                        margin: 0 -14px
-                    &>*
-                        padding: 0 10px
-                        @media only screen and (min-width: 1441px)
-                            padding: 0 12px
-                        @media only screen and (min-width: 1551px)
-                            padding: 0 14px
                     li
-                        a   
-                            svg
-                                fill: #a9a9a9
-                                transition: 0.4s all
-                                &#facebook
-                                    width: 9px
-                                    height: 18px
-                                    @media only screen and (min-width: 1441px)
-                                        width: 11px
-                                        height: 20px
-                                &#instagram
-                                    width: 16.65px
-                                    height: 16.65px
-                                    @media only screen and (min-width: 1200px)
-                                        width: 18.65px
-                                        height: 18.65px
-                                    @media only screen and (min-width: 1441px)
-                                        width: 20.65px
-                                        height: 20.65px
-                                &#twitter
-                                    width: 18px
-                                    height: 16px
-                                    @media only screen and (min-width: 1200px)
-                                        width: 20px
-                                        height: 16px
-                                    @media only screen and (min-width: 1441px)
-                                        width: 22px
-                                        height: 18px
-                                &#Linkedin
-                                    width: 16px
-                                    height: 16px
-                                    @media only screen and (min-width: 1200px)
-                                        width: 18px
-                                        height: 18px
-                                    @media only screen and (min-width: 1441px)
-                                        width: 21px
-                                        height: 21px
-                                &#youtube
-                                    width: 22px
-                                    height: 16px
-                                    @media only screen and (min-width: 1200px)
-                                        width: 24px
-                                        height: 16px
-                                    @media only screen and (min-width: 1441px)
-                                        width: 26px
-                                        height: 18px
-                            &:hover
-                                svg
-                                    fill: $basecolor
+                        a
+                            display: flex
+                            align-items: center
+                            gap: 28px
+                            font-family: $fontstack2
+                            font-size: 20px
+                            font-weight: 500
+                            color: $white
+                            img
+                                @include imgFit
+                                max-width: 43px
+        .footer-links
+            padding: 70px 0 61px
+            &-company
+                padding-left: 105px
+            &-contact
+                padding-left: 115px
+            &-head
+                font-size: 25px
+                font-weight: 500
+                margin-bottom: 32px
+                color: $white
+                font-family: $fontstack2
+            ul
+                margin-bottom: 21px
+                li
+                    a
+                        font-family: $fontstack2
+                        font-size: 16px
+                        font-weight: 400
+                        line-height: 30px
+                        letter-spacing: 0.2em
+                        color: $white
+                        &.adress 
+                            display: flex
+                            max-width: 243px
+                        &.bold
+                            font-weight: 700
+                        &:hover
+                            color: $basecolor2
+            p
+                font-family: $fontstack2
+                font-size: 16px
+                font-weight: 400
+                line-height: 30px
+                letter-spacing: 0.2em
+                margin-bottom: 45px
+                color: $white
+            .google-map-btn
+                width: fit-content
+                border: solid 1px $white
+                color: $white
+                font-size: 16px
+                font-weight: 500
+                letter-spacing: 2px
+                text-transform: uppercase
+                padding: 12px 17px
+                gap: 8px
+                font-family: $fontstack2
+                display: flex
+                justify-content: center
+                align-items: center
+                margin-top: 36px
+                &:hover
+                    border-color: $basecolor2
+                    color: $basecolor2
+            .subscribe-wrapper
+                display: flex
+                width: 100%
+                input
+                    width: calc( 100% - 203px )
+                    font-family: $fontstack2
+                    font-size: 16px
+                    color: $black
+                    padding: 8px 14px
+                    &::placeholder
+                        letter-spacing: 2px
+                        color: #A8A8A8
+                    &:focus 
+                        outline: none
+                .baseBtn
+                    width: 203px
+
+
 
     .bottomFooter
+        position: relative
+        z-index: 2
         padding: 12px 0 15px
         justify-content: space-between
+        border-top: solid #1D3755
         @include display
         @media only screen and (min-width: 468px)
             padding: 15px 0 20px
@@ -363,7 +136,7 @@ footer
         @media only screen and (min-width: 1441px)
             padding: 30px 0 34px
         @media only screen and (min-width: 1551px)
-            padding: 38px 0 46px
+            padding: 58px 0 64px
         &>*
             @media only screen and (max-width: 575px)
                 width: 100%
@@ -373,8 +146,9 @@ footer
                 padding-bottom: 4px
         p
             font-size: 13px
-            font-weight: 400
-            color: $black
+            font-family: $fontstack2
+            font-weight: 500
+            color: $white
             margin-bottom: 0
             @media only screen and (min-width: 768px)
                 font-size: 14px
@@ -388,8 +162,8 @@ footer
                 text-align: center
         a
             font-size: 13px
-            font-weight: 400
-            color: $black
+            font-weight: 500
+            color: $white
             transition: 0.4s all
             @media only screen and (min-width: 768px)
                 font-size: 14px
@@ -397,7 +171,5 @@ footer
                 font-size: 15px
             @media only screen and (min-width: 1441px)
                 font-size: 16px
-            @media only screen and (min-width: 1551px)
-                font-size: 18px
             &:hover
                 color: $basecolor
