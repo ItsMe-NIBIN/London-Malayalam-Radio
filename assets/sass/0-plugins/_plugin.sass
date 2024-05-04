@@ -9,13 +9,13 @@
 .select2-selection
     outline: none !important
     box-shadow: none !important
-    // background: url(../images/ard.png) no-repeat
-    background-size: 8px
+    background: url(../images/dwn-arrow.png) no-repeat
     padding: 0 !important
     display: flex !important
     align-items: center
     text-align: left
     background-position: right 5px center !important
+    background-size: 18px !important
     height: 50px !important
     @media only screen and (min-width: 468px)
         background-size: 10px
@@ -23,8 +23,8 @@
     .select2-selection__rendered
         width: 100%
         padding: 0 !important
-        color: rgba(0, 0, 0, .55)
-        font-weight: 300
+        color: $black
+        font-weight: 500
         font-size: 16px
 .select2-dropdown
     border: 1px solid rgba(136, 136, 136, 0.26) !important
@@ -36,10 +36,9 @@
     border-bottom: 1px solid rgba(131, 131, 131, 0.267) !important
 .select2-results__option
     padding: 10px 10px !important
-    // transition: .4s all
-    color: rgba(0, 0, 0, .55) !important
-    font-weight: 300
     font-size: 16px
+    font-weight: 500
+    color: $black
     &:hover
         background-color: $basecolor
         color: $white !important

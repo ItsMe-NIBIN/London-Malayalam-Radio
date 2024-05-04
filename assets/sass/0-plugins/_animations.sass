@@ -7,6 +7,7 @@
     justify-content: center
     position: relative
     overflow: hidden
+    border: solid 1px $basecolor
     &::before
         content: ''
         position: absolute
@@ -14,7 +15,7 @@
         top: 0
         bottom: 0
         width: 100%
-        background: $basecolor2
+        background: $white
         -webkit-transform: scaleX(0)
         -ms-transform: scaleX(0)
         transform: scaleX(0)
@@ -29,9 +30,8 @@
     span
         position: relative
     &:hover
-        border-color: $basecolor
         span
-            color: $white
+            color: $basecolor
         &::before
             -webkit-transform-origin: left
             -ms-transform-origin: left
