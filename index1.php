@@ -377,7 +377,7 @@
     <section id="article-section">
         <div class="custom_container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-xl-2">
                     <div class="article-head">
                         <h3>
                             <span>Latest</span>
@@ -389,7 +389,7 @@
                         <a href="javascript:void(0);" class="baseBtn hoveranim"><span>VIEW ALL NEWS</span></a>
                     </div>
                 </div>
-                <div class="col-lg-10">
+                <div class="col-xl-10">
                     <div class="owl-carousel owl-theme articleSlider">
                         <div class="article-box">
                             <div class="article-img">
@@ -840,20 +840,18 @@
             center: true,
             responsive: {
                 0: {
-                    items: 2,
-                },
-                468: {
-                    items: 2,
+                    items: 1.2,
                 },
                 576: {
-                    items: 3,
+                    items: 1.8,
                 },
                 768: {
-                    items: 3,
+                    items: 2.2,
                     margin: 20,
                 },
                 992: {
-                    items: 4,
+                    items: 3,
+                    margin: 20,
                 },
                 1200: {
                     margin: 31,
@@ -879,22 +877,18 @@
             margin: 10,
             responsive: {
                 0: {
-                    items: 2,
-                },
-                468: {
-                    items: 2,
-                },
-                576: {
-                    items: 3,
-                },
-                768: {
-                    items: 3,
+                    items: 1,
                     margin: 20,
                 },
                 992: {
-                    items: 4,
+                    items: 1.2,
+                    margin: 40,
                 },
-                1200: {
+                1441: {
+                    margin: 60,
+                    items: 1.3,
+                },
+                1551: {
                     margin: 72,
                     items: 1.45,
                 },
@@ -918,22 +912,18 @@
             margin: 10,
             responsive: {
                 0: {
-                    items: 2,
-                },
-                468: {
-                    items: 2,
+                    items: 1,
+                    margin: 10,
                 },
                 576: {
-                    items: 3,
-                },
-                768: {
-                    items: 3,
-                    margin: 20,
-                },
-                992: {
-                    items: 4,
+                    items: 1,
+                    margin: 15,
                 },
                 1200: {
+                    margin: 25,
+                    items: 2,
+                },
+                1551: {
                     margin: 31,
                     items: 3,
                 },

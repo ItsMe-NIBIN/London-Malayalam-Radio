@@ -1,22 +1,29 @@
 .banner
     &-section
         width: 100%
-        height: 360px
+        height: 100%
         background-color: #F6F6F6
         position: relative
-        @media only screen and (min-width: 576px)
-            height: 500px
-        @media only screen and (min-width: 768px)
-            height: 540px
         @media only screen and (min-width: 992px)
             height: calc( 100vh - 114px )
         @media only screen and (min-width: 1200px)
+            height: calc( 100vh - 119px )
+        @media only screen and ( min-width: 1441px )
+            height: calc( 100vh - 133px )
+        @media only screen and ( min-width: 1551px )
             height: calc( 100vh - 149px )
+        @media only screen and ( max-width: 991px )
+            padding: 60px 0 90px
+        @media only screen and ( max-width: 575px )
+            padding: 45px 0 75px
         .container
             height: 100%
             .row
                 height: 100%
                 align-items: center
+                @media only screen and ( max-width: 991px )
+                    flex-direction: column-reverse
+                    gap: 40px
         .carousel
             height: 100%
             &-inner
@@ -29,26 +36,36 @@
                         transform: translate(0)
                         opacity: 1
             &-indicators
-                margin: 0 0 91px 0
+                margin: 0 0 -52px 0
+                @media only screen and (min-width: 576px)
+                    margin: 0 0 -60px 0
+                @media only screen and ( min-width: 992px )
+                    margin: 0 0 91px 0
                 button
-                    width: 7px
-                    height: 7px
+                    width: 5px
+                    height: 5px
                     border-radius: 50%
                     background-color: #D9D9D9
-                    margin-right: 28px
+                    margin-right: 15px
+                    @media only screen and (min-width: 576px)
+                        width: 7px
+                        height: 7px
+                        margin-right: 28px
                     &.active
                         background-color: $basecolor
         .scroll-down
             position: absolute
             bottom: 0
             left: 50%
-            transform: translate( -50% , 12% )
+            transform: translate( -50% , 48% )
             z-index: 9
             display: flex
             flex-direction: column
             justify-content: center
             align-items: center
             gap: 12px
+            @media only screen and (min-width: 576px)
+                transform: translate( -50% , 12% )
             svg
                 width: 33px
                 height: 33px
@@ -67,25 +84,46 @@
                 font-weight: 300
                 color: $black
                 writing-mode: vertical-rl
+                @media only screen and (max-width: 575px)
+                    display: none
 
     &__contents
         display: flex
         justify-content: start
         align-content: center
         flex-direction: column
-        transform: translate( 0 , 50px )
+        transform: translate( 0 , 30px )
         transition: 1.5s all
         opacity: 0
+        @media only screen and (min-width: 576px)
+            transform: translate( 0 , 50px )
         p
-            font-size: 22px
-            line-height: 26px
+            font-size: 15px
+            line-height: 20px
+            margin-bottom: 15px
             color: #1D1D1D
-            margin-bottom: 35px
             width: 100%
-            max-width: 66%
+            max-width: 90%
+            @media only screen and (min-width: 576px)
+                font-size: 18px
+                line-height: 24px
+                margin-bottom: 18px
+            @media only screen and ( min-width: 1200px )
+                font-size: 20px
+                line-height: 24px
+                margin-bottom: 22px
+            @media only screen and ( min-width: 1441px )
+                max-width: 72%
+            @media only screen and ( min-width: 1551px )
+                font-size: 22px
+                line-height: 26px
+                margin-bottom: 35px
+                max-width: 86%
+            @media only screen and ( min-width: 1681px )
+                max-width: 66%
     &__title
         font-size: 28px
-        margin-bottom: 24px
+        margin-bottom: 16px
         font-weight: 800
         color: $basecolor
         font-weight: 300
@@ -98,10 +136,17 @@
         @media only screen and (min-width: 576px)
             font-size: 40px
         @media only screen and (min-width: 992px)
-            font-size: 52px
+            font-size: 45px
         @media only screen and (min-width: 1200px)
-            font-size: 60px
+            font-size: 54px
         @media only screen and ( min-width: 1441px )
+            font-size: 58px
+            line-height: 66px
+        @media only screen and ( min-width: 1551px )
+            font-size: 64px
+            line-height: 70px
+            margin-bottom: 24px
+        @media only screen and ( min-width: 1681px )
             font-size: 70px
             line-height: 75px
         span
@@ -113,9 +158,23 @@
         &-wrapper
             display: flex
             align-items: flex-end
-            gap: 63px
+            gap: 18px
+            @media only screen and (min-width: 576px)
+                gap: 30px
+            @media only screen and ( min-width: 768px )
+                gap: 36px
+            @media only screen and ( min-width: 1200px )
+                gap: 45px
+            @media only screen and ( min-width: 1441px )
+                gap: 50px
+            @media only screen and ( min-width: 1551px )
+                gap: 63px
+            @media only screen and ( max-width: 991px )
+                justify-content: center
         &__box
             position: relative
+            @media only screen and (max-width: 575px)
+                flex-shrink: 0
             &::before
                 position: absolute
                 content: ""
@@ -129,21 +188,73 @@
                 position: relative
                 z-index: 9
             &--lg
-                width: 434px
-                height: 620px
+                width: 190px
+                height: 286px
+                @media only screen and (min-width: 576px)
+                    width: 250px
+                    height: 382px
+                @media only screen and ( min-width: 768px )
+                    width: 288px
+                    height: 410px
+                @media only screen and ( min-width: 992px )
+                    width: 390px
+                    height: 410px
+                @media only screen and ( min-width: 1200px )
+                    width: 390px
+                    height: 480px
+                @media only screen and ( min-width: 1441px )
+                    width: 434px
+                    height: 540px
+                @media only screen and ( min-width: 1551px )
+                    width: 434px
+                    height: 620px
                 img
                     border-radius: 217px
                 &::before
-                    left: 24px
+                    left: 10px
                     border-radius: 217px
+                    @media only screen and (min-width: 576px)
+                        left: 13px
+                    @media only screen and ( min-width: 768px )
+                        left: 15px
+                    @media only screen and ( min-width: 1200px )
+                        left: 20px
+                    @media only screen and ( min-width: 1551px )
+                        left: 24px
             &--sm
-                width: 245px
-                height: 381px
+                width: 100px
+                height: 146px
+                @media only screen and (min-width: 576px)
+                    width: 146px
+                    height: 212px
+                @media only screen and ( min-width: 768px )
+                    width: 166px
+                    height: 230px
+                @media only screen and ( min-width: 992px )
+                    width: 226px
+                    height: 230px
+                @media only screen and ( min-width: 1200px )
+                    width: 226px
+                    height: 280px
+                @media only screen and ( min-width: 1441px )
+                    width: 245px
+                    height: 311px
+                @media only screen and ( min-width: 1551px )
+                    width: 245px
+                    height: 381px
                 img
                     border-radius: 189px
                 &::before
-                    left: 13px
+                    left: 6px
                     border-radius: 189px
+                    @media only screen and (min-width: 576px)
+                        left: 8px
+                    @media only screen and ( min-width: 768px )
+                        left: 9px
+                    @media only screen and ( min-width: 1200px )
+                        left: 11px
+                    @media only screen and ( min-width: 1551px )
+                        left: 13px
             .info
                 &-box
                     display: flex
@@ -156,26 +267,66 @@
                     position: absolute
                     z-index: 9
                     &--top
-                        top: 16%
-                        right: -66%
+                        top: 8%
+                        right: -62%
+                        @media only screen and (min-width: 576px)
+                            top: 12%
+                            right: -68%
+                        @media only screen and ( min-width: 1441px )
+                            top: 16%
+                            right: -66%
                     &--bottom
                         bottom: 12%
-                        left: -26%
+                        left: -16%
+                        @media only screen and (min-width: 576px)
+                            bottom: 14%
+                            left: -32%
+                        @media only screen and ( min-width: 1441px )
+                            bottom: 12%
+                            left: -26%
 
                 &-icon
-                    width: 48px
-                    height: 48px
+                    width: 30px
+                    height: 30px
                     border-radius: 50%
                     display: flex
                     justify-content: center
                     align-items: center
                     background-color: $basecolor2
+                    @media only screen and (min-width: 576px)
+                        width: 36px
+                        height: 36px
+                    @media only screen and ( min-width: 1200px )
+                        width: 42px
+                        height: 42px
+                    @media only screen and ( min-width: 1441px )
+                        width: 48px
+                        height: 48px
                     img
                         @include imgFit
                         object-fit: contain
-                        max-width: 28px
+                        max-width: 16px
+                        @media only screen and (min-width: 576px)
+                            max-width: 22px
+                        @media only screen and ( min-width: 1200px )
+                            max-width: 28px
                 &-title
-                    font-size: 22px
-                    line-height: 26px
+                    font-size: 13px
+                    line-height: 15px
                     font-weight: 400
                     color: #1D1D1D
+                    @media only screen and (min-width: 576px)
+                        font-size: 15px
+                        line-height: 18px
+                    @media only screen and ( min-width: 768px )
+                        font-size: 16px
+                        line-height: 20px
+                    @media only screen and ( min-width: 1200px )
+                        font-size: 18px
+                        line-height: 22px
+                    @media only screen and ( min-width: 1441px )
+                        font-size: 20px
+                        line-height: 24px
+                    @media only screen and ( min-width: 1551px )
+                        font-size: 22px
+                        line-height: 26px
