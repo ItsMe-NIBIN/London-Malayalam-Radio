@@ -225,10 +225,6 @@ const appHeight = () => document.documentElement.style.setProperty('--app-height
 window.addEventListener('resize', appHeight)
 appHeight()
 
-/************ WATERMARK ************/
-var str = "Nibin - Front End Developer";
-console.log("Powered by " + str);
-
 // AOS
 AOS.init({
     duration: 700,

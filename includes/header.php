@@ -8,14 +8,10 @@
         content="width=device-width, initial-scale=1.0, shrink-to-fit=no, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>London Malayalam Radio</title>
-    <link rel="icon" href="assets/images/favicon.ico" sizes="any"><!-- 32×32 -->
-    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><!-- 192×192 -->
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="assets/images/manifest.webmanifest">
+    <link rel="icon" href="assets/images/favicon.ico" sizes="any">
 
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
-    <meta name="theme-color" content="#8C7BFF">
+    <meta name="theme-color" content="#C02021">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -224,19 +220,19 @@
                                                     <div class="accordion-body">
                                                         <ul>
                                                             <li>
-                                                                <a href="javascript:void(0);">Self Build Mortgages</a>
+                                                                <a href="self-build-mortage.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'self-build-mortage' ? 'active' : '' ?>">Self Build Mortgages</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Second Charge Loans</a>
+                                                                <a href="second-charge-loans.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'second-charge-loans' ? 'active' : '' ?>">Second Charge Loans</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Offset Mortgages</a>
+                                                                <a href="offset-mortage.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'offset-mortage' ? 'active' : '' ?>">Offset Mortgages</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Flexible Mortgages</a>
+                                                                <a href="flexible-mortage.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'flexible-mortage' ? 'active' : '' ?>">Flexible Mortgages</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Buy to Let Mortgage</a>
+                                                                <a href="buy-to-let-mortage.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'buy-to-let-mortage' ? 'active' : '' ?>">Buy to Let Mortgage</a>
                                                             </li>
                                                             <li>
                                                                 <a href="javascript:void(0);">Remortgages</a>
@@ -271,19 +267,25 @@
                                                     <div class="accordion-body">
                                                         <ul>
                                                             <li>
-                                                                <a href="javascript:void(0);">Private Limited Co</a>
+                                                                <a href="life-insurance.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'life-insurance' ? 'active' : '' ?>">Life Insurance</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">LLP</a>
+                                                                <a href="income-accident-protection.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'income-accident-protection' ? 'active' : '' ?>">Income & Accident Protection</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Sole Proprietorship</a>
+                                                                <a href="home-contents-insurance.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'home-contents-insurance' ? 'active' : '' ?>">Home and Contents Insurance</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">OPC</a>
+                                                                <a href="critical-illness-insurance.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'critical-illness-insurance' ? 'active' : '' ?>">Critical Illness Insurance</a>
                                                             </li>
                                                             <li>
-                                                                <a href="javascript:void(0);">Partnership</a>
+                                                                <a href="relevant-life-plan.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'relevant-life-plan' ? 'active' : '' ?>">Relevant Life Plan</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="partnership-protection.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'partnership-protection' ? 'active' : '' ?>">Partnership Protection</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="share-holder-protection.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'share-holder-protection' ? 'active' : '' ?>">Shareholder Protection</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -291,8 +293,8 @@
                                             </div>
                                             <div class="accordion-item">
                                                 <div class="accordion-header">
-                                                    <a href="javascript:void(0);"
-                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'Services' ? 'active' : '' ?>">
+                                                    <a href="article.php"
+                                                        class="accordion-button <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'article' ? 'active' : '' ?> <?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'article-details' ? 'active' : '' ?>">
                                                         Articles
                                                     </a>
                                                 </div>
