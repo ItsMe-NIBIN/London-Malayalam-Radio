@@ -5,7 +5,7 @@
     <!-- Banner Section  -->
     <section class="banner-section">
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel"
-            data-bs-interval="1112500">
+            data-bs-interval="3500">
             <div class="carousel-indicators">
                 <div class="container">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -79,6 +79,18 @@
                                     <div class="banner__image-wrapper">
                                         <div class="banner__image__box banner__image__box--lg">
                                             <img src="assets/images/banner2.png" alt="">
+                                            <div class="info-box info-box--top">
+                                                <div class="info-icon">
+                                                    <img src="assets/images/banner-icon1.png" alt="">
+                                                </div>
+                                                <div class="info-title">Our clients are guaranteed</div>
+                                            </div>
+                                            <div class="info-box info-box--bottom">
+                                                <div class="info-icon">
+                                                    <img src="assets/images/banner-icon2.png" alt="">
+                                                </div>
+                                                <div class="info-title">Expert Mortgage Brokers</div>
+                                            </div>
                                         </div>
                                         <div class="banner__image__box banner__image__box--sm">
                                             <img src="assets/images/banner1.png" alt="">
@@ -108,6 +120,18 @@
                                     <div class="banner__image-wrapper">
                                         <div class="banner__image__box banner__image__box--lg">
                                             <img src="assets/images/banner1.png" alt="">
+                                            <div class="info-box info-box--top">
+                                                <div class="info-icon">
+                                                    <img src="assets/images/banner-icon1.png" alt="">
+                                                </div>
+                                                <div class="info-title">Our clients are guaranteed</div>
+                                            </div>
+                                            <div class="info-box info-box--bottom">
+                                                <div class="info-icon">
+                                                    <img src="assets/images/banner-icon2.png" alt="">
+                                                </div>
+                                                <div class="info-title">Expert Mortgage Brokers</div>
+                                            </div>
                                         </div>
                                         <div class="banner__image__box banner__image__box--sm">
                                             <img src="assets/images/banner2.png" alt="">
@@ -386,7 +410,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Oculorum, inquit Plato, est in nobis
                             sensus acerrimus, quibus sapientiam non cernimus. At iam decimum annum in spelunca iacet.
                         </p>
-                        <a href="javascript:void(0);" class="baseBtn hoveranim"><span>VIEW ALL NEWS</span></a>
+                        <a href="article.php" class="baseBtn hoveranim"><span>VIEW ALL NEWS</span></a>
                     </div>
                 </div>
                 <div class="col-xl-10">
@@ -827,8 +851,8 @@
             lazyLoad: true,
             rewind: false,
             autoplay: true,
-            smartSpeed: 1000,
-            autoplayTimeout: 2500,
+            smartSpeed: 1500,
+            autoplayTimeout: 3000,
             autoplayHoverPause: true,
             responsiveClass: true,
             autoplayHoverPause: false,
@@ -869,7 +893,7 @@
             rewind: false,
             autoplay: true,
             smartSpeed: 1000,
-            autoplayTimeout: 1112000,
+            autoplayTimeout: 2500,
             autoplayHoverPause: true,
             responsiveClass: true,
             nav: false,
@@ -904,7 +928,7 @@
             rewind: false,
             autoplay: true,
             smartSpeed: 1000,
-            autoplayTimeout: 1112000,
+            autoplayTimeout: 2500,
             autoplayHoverPause: true,
             responsiveClass: true,
             nav: false,
@@ -919,7 +943,7 @@
                     items: 1,
                     margin: 15,
                 },
-                1200: {
+                992: {
                     margin: 25,
                     items: 2,
                 },
@@ -974,7 +998,7 @@
 
                 $('#network-section .network-counter.active').removeClass('active');
                 $('#network-section .network-counter').eq(active_li_index).addClass('active');
-            }, 2500);
+            }, 2000);
         })
 
 
@@ -990,7 +1014,7 @@
 
                 $('#how-it-works-section .feature-item.active').removeClass('active');
                 $('#how-it-works-section .feature-item').eq(active_li_index).addClass('active');
-            }, 2500);
+            }, 2000);
         })
 
 

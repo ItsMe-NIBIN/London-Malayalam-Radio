@@ -3,11 +3,11 @@
         <div class="topFooter">
             <div class="footer-info">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-xl-6">
                         <h2>Ready to get started?</h2>
                         <p>Speak to a specialist at (0153 635 7806)</p>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-xl-6">
                         <div class="footer-info-wrapper">
                             <ul>
                                 <li>
@@ -24,7 +24,7 @@
             </div>
             <div class="footer-links">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-xl-2 col-md-4 col-sm-7">
                         <div class="footer-links-head">Quick Links</div>
                         <ul>
                             <li>
@@ -42,7 +42,7 @@
                             <img src="assets/images/google-map.svg" alt="">
                         </a>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-xl-2 col-md-2 col-sm-5">
                         <div class="footer-links-company">
                             <div class="footer-links-head">Company</div>
                             <ul>
@@ -58,7 +58,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="footer-links-contact">
                             <div class="footer-links-head">Contact Address</div>
                             <ul>
@@ -76,7 +76,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xl-4 col-lg-6 col-md-7">
                         <div class="footer-links-head">Subscribe for News & Updates</div>
                         <p>Subscribe to our newsletter to get the latest updates of quanto.</p>
                         <div class="subscribe-wrapper">

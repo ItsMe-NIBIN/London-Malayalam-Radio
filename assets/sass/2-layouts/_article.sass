@@ -29,7 +29,7 @@
         font-size: 16px
         font-weight: 400
         color: $white
-    &-contents  
+    &-contents
         h4
             font-size: 25px
             line-height: 35px
@@ -44,7 +44,7 @@
             font-weight: 400
             color: $black
             text-align: justify
-        a   
+        a
             font-size: 16px
             font-weight: 400
             letter-spacing: 2px
@@ -55,20 +55,64 @@
                 letter-spacing: 3px
 
 #articles-section
-    padding: 80px 0 130px
+    padding: 50px 0 60px
+    @media only screen and (min-width: 576px)
+        padding: 65px 0 100px
+    @media only screen and (min-width: 1441px)
+        padding: 80px 0 130px
     .articles
         &-wrapper
             display: flex
             flex-wrap: wrap
-            gap: 63px 103px
+            gap: 40px 32px
+            @media only screen and (min-width: 576px)
+                gap: 40px 32px
+            @media only screen and (min-width: 1441px)
+                gap: 48px 52px
+            @media only screen and (min-width: 1681px)
+                gap: 63px 103px
         &-box
             display: flex
             flex-direction: column
             align-items: center
-            gap: 41px
-            width: calc( (100% / 3) - 69px )
-
-
+            gap: 12px
+            width: 100%
+            @media only screen and (min-width: 576px)
+                gap: 20px
+            @media only screen and (min-width: 767px)
+                width: calc( (100% / 2) - 16px )
+            @media only screen and (min-width: 1200px)
+                width: calc( (100% / 3) - 22px )
+            @media only screen and (min-width: 1441px)
+                gap: 41px
+                width: calc( (100% / 3) - 35px )
+            @media only screen and (min-width: 1681px)
+                width: calc( (100% / 3) - 69px )
+        &-img
+            @media only screen and (max-width: 1550px)
+                height: 415px
+            @media only screen and (max-width: 1440px)
+                height: 360px
+            @media only screen and (max-width: 575px)
+                height: 340px
+        &-strip
+            @media only screen and (max-width: 1440px)
+                bottom: 18px
+                right: 18px
+            @media only screen and (max-width: 575px)
+                font-size: 14px
+        &-contents
+            h4
+                @media only screen and (max-width: 575px)
+                    margin-bottom: 5px
+            p
+                @media only screen and (max-width: 1440px)
+                    margin-bottom: 20px
+                @media only screen and (max-width: 575px)
+                    margin-bottom: 10px
+            a
+                @media only screen and (max-width: 575px)
+                    font-size: 14px
 #articles-details
     padding: 75px 0 92px
     .articles-details
