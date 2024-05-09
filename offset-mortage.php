@@ -5,14 +5,14 @@
     <section class="common-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-contents">
                         <h1>Offset Mortgages</h1>
                         <p>Passion means we use our drive and commitment
                             to energize, engage and inspire others.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-wrapper">
                         <div class="common-banner-box common-banner-box--sm">
                             <img src="assets/images/offset-mortage-banner3.png" alt="">

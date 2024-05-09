@@ -5,14 +5,14 @@
     <section class="common-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-contents">
                         <h1>Contact</h1>
                         <p>We built a company that places you and your needs
                             at the centre of everything we do.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-wrapper">
                         <div class="common-banner-box common-banner-box--sm">
                             <img src="assets/images/contact-banner-1.png" alt="">
@@ -43,7 +43,7 @@
     <section id="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-xl-8">
                     <div class="contact-left">
                         <div class="contact-head">
                             <h3>How can we help you?</h3>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4">
                     <div class="contact-right">
                         <div class="contact-address">
                             <h3>London Malayalam Radio</h3>

@@ -1,39 +1,70 @@
 #contact-section 
-    padding: 96px 0 134px
+    padding: 60px 0 72px
+    @media only screen and (min-width: 576px)
+        padding: 80px 0 100px
+    @media only screen and (min-width: 1551px)
+        padding: 96px 0 134px
     h3
-        font-size: 40px
-        line-height: 35px
+        font-size: 30px
+        line-height: 30px
         font-weight: 600
         color: $black
         margin-bottom: 0
         text-transform: capitalize
         font-family: $fontstack2
+        @media only screen and (min-width: 576px)
+            font-size: 34px
+            line-height: 32px
+        @media only screen and (min-width: 1551px)
+            font-size: 40px
+            line-height: 35px
     .contact
         &-left
-            padding-right: 60px
+            @media only screen and (min-width: 1200px)
+                padding-right: 50px
+            @media only screen and (min-width: 1551px)
+                padding-right: 60px
         &-head
-            margin-bottom: 55px
+            margin-bottom: 25px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 35px
+            @media only screen and (min-width: 1551px)
+                margin-bottom: 55px
             p   
                 font-size: 16px
                 line-height: 25px
                 font-weight: 400
-                margin: 23px 0 30px
+                margin: 15px 0
+                @media only screen and (min-width: 576px)
+                    margin: 20px 0
+                @media only screen and (min-width: 1551px)
+                    margin: 23px 0 30px
             .hint-box 
                 border-radius: 100px
                 width: 100%
                 background-color: #F6F6F6
-                padding: 27px
-                font-size: 20px
-                line-height: 30px
+                padding: 20px
+                font-size: 16px
+                line-height: 22px
                 color: $black
                 text-align: center
+                @media only screen and (min-width: 576px)
+                    padding: 22px
+                    font-size: 18px
+                    line-height: 26px
+                @media only screen and (min-width: 1551px)
+                    padding: 27px
+                    font-size: 20px
+                    line-height: 30px
         &-form
             .form
                 &-group
-                    margin-bottom: 48px
+                    margin-bottom: 30px
+                    @media only screen and (min-width: 576px)
+                        margin-bottom: 48px
                 &-control
                     width: 100%
-                    height: 80px
+                    height: 60px
                     border: 0
                     border-bottom: solid 1px #4E4E4E
                     font-size: 18px
@@ -42,6 +73,8 @@
                     color: $black
                     font-family: $fontstack2
                     padding: 0
+                    @media only screen and (min-width: 576px)
+                        height: 80px
                     &:focus
                         border-color: $basecolor2
                 &-check
@@ -74,9 +107,12 @@
                             background-color: $basecolor
             .baseBtn
                 min-width: 286px
-            
+                @media only screen and (max-width: 575px)
+                    width: 100%
             .select2-selection
-                height: 80px !important
+                height: 60px !important
+                @media only screen and (min-width: 576px)
+                    height: 80px !important
             .select2-container .select2-selection--single .select2-selection__rendered
                 color: $black
                 font-weight: 500
@@ -84,40 +120,71 @@
                 border-bottom-color: $black
                         
             textarea
-                min-height: 132px
+                min-height: 112px
+                @media only screen and (min-width: 576px)
+                    min-height: 132px
+        &-right 
+            @media only screen and (max-width: 1199px)
+                padding-top: 50px
         &-address
-            margin-bottom: 74px
+            margin-bottom: 30px
+            @media only screen and (min-width: 576px)
+                margin-bottom: 45px
+            @media only screen and (min-width: 1551px)
+                margin-bottom: 74px
             ul
-                padding-top: 36px
+                padding-top: 25px
+                @media only screen and (min-width: 576px)
+                    padding-top: 32px
+                @media only screen and (min-width: 1551px)
+                    padding-top: 36px
                 li
-                    margin-bottom: 32px
+                    margin-bottom: 18px
+                    @media only screen and (min-width: 576px)
+                        margin-bottom: 28px
+                    @media only screen and (min-width: 1551px)
+                        margin-bottom: 32px
                     &:last-child
                         margin-bottom: 0
                     a
                         display: flex
                         align-items: center
-                        gap: 25px
+                        gap: 20px
                         width: fit-content
+                        @media only screen and (min-width: 1551px)
+                            gap: 25px
                         &:hover
                             span
                                 color: $basecolor
                     img
-                        width: 41px
-                        height: 41px
+                        width: 24px
+                        height: 24px
                         object-fit: contain
+                        @media only screen and (min-width: 576px)
+                            width: 34px
+                            height: 34px
+                        @media only screen and (min-width: 1551px)
+                            width: 41px
+                            height: 41px
                     span
                         transition: 0.4s all
                         font-family: $fontstack2
-                        font-size: 20px
+                        font-size: 16px
                         line-height: 1.2
                         letter-spacing: 2px
                         color: $black
                         font-weight: 500
+                        @media only screen and (min-width: 576px)
+                            font-size: 20px
                         &.bold 
                             font-weight: 700
         &-map
             width: 100%
-            height: 525px
+            height: 330px
+            @media only screen and (min-width: 576px)
+                height: 415px
+            @media only screen and (min-width: 1551px)
+                height: 525px
             iframe
                 width: 100%
                 height: 100%

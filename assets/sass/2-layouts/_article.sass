@@ -114,56 +114,117 @@
                 @media only screen and (max-width: 575px)
                     font-size: 14px
 #articles-details
-    padding: 75px 0 92px
+    padding: 58px 0 66px
+    @media only screen and (min-width: 576px)
+        padding: 75px 0 92px
     .articles-details
         &-left
-            padding-right: 32px
+            @media only screen and (min-width: 992px)
+                padding-right: 32px
             h3
+                font-size: 26px
+                margin-bottom: 12px
                 font-weight: 600
-                font-size: 40px
                 line-height: 1
                 color: $black
                 font-family: $fontstack2
-                margin-bottom: 18px
+                @media only screen and (min-width: 576px)
+                    font-size: 30px
+                    margin-bottom: 15px
+                @media only screen and (min-width: 1441px)
+                    font-size: 34px
+                    margin-bottom: 18px
+                @media only screen and (min-width: 1551px)
+                    font-size: 40px
             h5
-                font-size: 25px
+                font-size: 20px
+                margin-bottom: 8px
                 font-weight: 500
                 color: $black
-                margin-bottom: 12px
+                @media only screen and (min-width: 576px)
+                    font-size: 22px
+                    margin-bottom: 10px
+                @media only screen and (min-width: 1441px)
+                    font-size: 25px
+                    margin-bottom: 12px
             ul
-                margin-bottom: 30px
+                margin-bottom: 25px
+                padding-left: 20px
+                @media only screen and (min-width: 576px)
+                    margin-bottom: 30px
                 li
-                    font-size: 16px
-                    line-height: 25px
+                    font-size: 15px
+                    line-height: 24px
                     color: $black
                     font-weight: 400
                     list-style-type: disc
                     margin-bottom: 6px
+                    @media only screen and (min-width: 576px)
+                        font-size: 16px
+                        line-height: 25px
             p
-                font-size: 16px
-                line-height: 25px
+                font-size: 15px
+                line-height: 24px
+                margin-bottom: 20px
                 color: $black
                 font-weight: 400
-                margin-bottom: 25px
+                @media only screen and (min-width: 576px)
+                    font-size: 16px
+                    line-height: 25px
+                    margin-bottom: 25px
 
             mark
                 padding: 0
                 background-color: transparent
-                font-size: 20px
-                line-height: 25px
+                font-size: 16px
+                line-height: 20px
                 font-weight: 500
                 color: $black
+                @media only screen and (min-width: 576px)
+                    font-size: 18px
+                    line-height: 22px
+                @media only screen and (min-width: 1441px)
+                    font-size: 20px
+                    line-height: 25px
 
         &-right
-            padding-left: 52px
+            @media only screen and (min-width: 992px)
+                padding-left: 20px
+            @media only screen and (min-width: 1441px)
+                padding-left: 52px
+            @media only screen and (max-width: 1199px)
+                margin-top: 40px
             h5
-                font-size: 40px
-                line-height: 35px
+                font-size: 30px
+                line-height: 32px
                 font-weight: 600
-                margin-bottom: 51px
+                margin-bottom: 25px
                 color: $black
                 font-family: $fontstack2
+                @media only screen and (min-width: 1441px)
+                    font-size: 36px
+                    line-height: 35px
+                    margin-bottom: 35px
+                @media only screen and (min-width: 1551px)
+                    font-size: 40px
+                    margin-bottom: 51px
     .recent-posts
         display: flex
         flex-direction: column
         gap: 56px
+        .articles
+            &-box
+                gap: 15px
+                @media only screen and (min-width: 1441px)
+                    gap: 25px
+                @media only screen and (min-width: 1551px)
+                    gap: 25px
+            &-img
+                height: 330px
+                @media only screen and (min-width: 1551px)
+                    height: 380px
+            &-contents
+                p 
+                    margin-bottom: 16px
+                    @media only screen and (min-width: 1551px)
+                        margin-bottom: 20px

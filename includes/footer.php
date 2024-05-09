@@ -28,13 +28,13 @@
                         <div class="footer-links-head">Quick Links</div>
                         <ul>
                             <li>
-                                <a href="javascript:void(0);">Home</a>
+                                <a href="index1.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'index1' ? 'active' : '' ?>">Home</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Articles</a>
+                                <a href="article.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'article' ? 'active' : '' ?>">Articles</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0);">Contact</a>
+                                <a href="contact.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'contact' ? 'active' : '' ?>">Contact</a>
                             </li>
                         </ul>
                         <a href="javascript:void(0);" class="google-map-btn">
@@ -47,7 +47,7 @@
                             <div class="footer-links-head">Company</div>
                             <ul>
                                 <li>
-                                    <a href="javascript:void(0);">About Us</a>
+                                    <a href="about.php" class="<?= basename($_SERVER["SCRIPT_FILENAME"], '.php') == 'about' ? 'active' : '' ?>">About Us</a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0);">Mortgage</a>

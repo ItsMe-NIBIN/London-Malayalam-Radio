@@ -5,14 +5,14 @@
     <section class="common-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-contents">
                         <h1>Life Insurance</h1>
                         <p>switching your mortgage to another deal with another
                             lender without moving property</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-wrapper">
                         <div class="common-banner-box common-banner-box--sm">
                             <img src="assets/images/life-insurance-banner1.png" alt="">

@@ -5,14 +5,14 @@
     <section class="common-banner">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-contents">
                         <h1>Self Build Mortgages</h1>
                         <p>Passion means we use our drive and commitment
                             to energize, engage and inspire others.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="common-banner-wrapper">
                         <div class="common-banner-box common-banner-box--sm">
                             <img src="assets/images/self-build-mortage-banner1.png" alt="">
